@@ -1,6 +1,7 @@
 /*
 Autor(es):
 - Cesar Augusto Ramirez Davila | A01712439
+- Luis Hubert Madrian Valero   | A00832252
 */
 
 #ifndef FUNCTIONS_H
