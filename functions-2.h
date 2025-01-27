@@ -1,6 +1,8 @@
 /*
 Autor(es):
 - Cesar Augusto Ramirez Davila | A01712439
+- Alexia Arteaga Mendoza | A01663911
+-  | A0
 */
 
 #ifndef FUNCTIONS_H
