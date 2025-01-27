@@ -1,3 +1,8 @@
+/*
+Autor(es):
+- Cesar Augusto Ramirez Davila | A01712439
+*/
+
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
