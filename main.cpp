@@ -64,20 +64,20 @@ int main()
 
     switch (opcion)
     {
-    case '1':
+    case 1:
       resultados.nextNode();
       break;
-    case '2':
+    case 2:
       resultados.prevNode();
       break;
-    case '3':
+    case 3:
       cout << "Saliendo del programa...\n";
       break;
     default:
       cout << "Opción no válida. Intente nuevamente.\n";
       break;
     }
-  } while (opcion != '3');
+  } while (opcion != 3);
 
   cout << "\nPrograma finalizado. Gracias por usar el sistema.\n";
   return 0;
