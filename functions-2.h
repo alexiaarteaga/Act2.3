@@ -2,7 +2,7 @@
 Autor(es):
 - Cesar Augusto Ramirez Davila | A01712439
 - Alexia Arteaga Mendoza | A01663911
--  | A0
+- Luis Hubert Madrian Valero | A00832252
 */
 
 #ifndef FUNCTIONS_H
