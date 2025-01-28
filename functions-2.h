@@ -59,6 +59,30 @@ public:
     }
   }
 
+void nextNode()
+{
+    static Node *current = head; // Se inicializa con el primer nodo
+    if (!current)
+    {
+        cout << "La lista está vacía o ya se recorrió completamente.\n";
+        return;
+    }
+    cout << current->data.fecha << " " << current->data.ip << " " << current->data.mensaje << endl;
+    current = current->sig; // Avanza al siguiente nodo
+}
+
+void prevNode()
+{
+    static Node *current = tail; // Se inicializa con el último nodo
+    if (!current)
+    {
+        cout << "La lista está vacía o ya se recorrió completamente hacia atrás.\n";
+        return;
+    }
+    cout << current->data.fecha << " " << current->data.ip << " " << current->data.mensaje << endl;
+    current = current->prev; // Retrocede al nodo anterior
+}
+
   // Método para obtener el puntero al primer nodo de la lista
   Node *getHead() const
   {
@@ -95,29 +119,7 @@ public:
     }
   }
 
-  void ListaDoble::nextNode()
-{
-    static Node *current = head; // Se inicializa con el primer nodo
-    if (!current)
-    {
-        cout << "La lista está vacía o ya se recorrió completamente.\n";
-        return;
-    }
-    cout << current->data.fecha << " " << current->data.ip << " " << current->data.mensaje << endl;
-    current = current->sig; // Avanza al siguiente nodo
-}
-
-void ListaDoble::prevNode()
-{
-    static Node *current = tail; // Se inicializa con el último nodo
-    if (!current)
-    {
-        cout << "La lista está vacía o ya se recorrió completamente hacia atrás.\n";
-        return;
-    }
-    cout << current->data.fecha << " " << current->data.ip << " " << current->data.mensaje << endl;
-    current = current->prev; // Retrocede al nodo anterior
-}
+  
 };
 
 
